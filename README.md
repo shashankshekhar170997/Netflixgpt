@@ -18,6 +18,9 @@
   @tailwind utilities;)
 
 - Start building process (npm run start)
+- Header
+  -Login form
+  -signUp form
 
 # Features
 

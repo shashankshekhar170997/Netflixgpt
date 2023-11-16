@@ -19,8 +19,11 @@
 
 - Start building process (npm run start)
 - Header
+- Routing of App
   -Login form
   -signUp form
+  -Form validation
+- useRef Hook
 
 # Features
 

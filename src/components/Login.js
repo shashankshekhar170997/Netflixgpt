@@ -10,8 +10,8 @@ import { useNavigate } from "react-router-dom";
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/Redux/userSlice";
+import { USER_AVTAR } from "../utils/constants";
 const Login = () => {
-  const navigate = useNavigate();
   // for dispatch an action
   const dispatch = useDispatch();
 
@@ -42,8 +42,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name.current.value,
-            photoURL:
-              "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_200x200/https://d33wubrfki0l68.cloudfront.net/606f4bec7400d900cc8bbbf5/36f740eb7f01ed7abd8e/my-passport-photo%20(1).jpg",
+            photoURL: USER_AVTAR,
           })
             .then(() => {
               // Profile updated!
@@ -56,14 +55,14 @@ const Login = () => {
                   photoURL: photoURL,
                 })
               );
-              navigate("/browse");
+              // navigate("/browse");
             })
             .catch((error) => {
               // An error occurred
               setErrorMessage(error.message);
             });
 
-          console.log(user);
+          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -81,8 +80,6 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          console.log(user);
-          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;

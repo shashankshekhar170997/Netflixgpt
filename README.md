@@ -32,6 +32,16 @@
 - Implemented Sign out
 - Implemented Update profile api
 - Used TMDB Movies api
+- Unsubscribe to the onAuthStateChanged callback
+- Added hardcoded value to the constants files
+- Register TMDB API & create an app & get access token
+- Get Data from TMDB now playing movies list API.
+- Custom hook for Now playing Movies
+- Update store with movies Data
+- planning for MainContainer & secondary container
+- update store with Trailer video Data
+- Embedded the youtube video and make it autoplay and mute
+- Tailwind classes to make Main Container look awesome
 
 # Features
 

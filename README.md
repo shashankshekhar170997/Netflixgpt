@@ -42,6 +42,12 @@
 - update store with Trailer video Data
 - Embedded the youtube video and make it autoplay and mute
 - Tailwind classes to make Main Container look awesome
+- Build secondary Component
+- Implemented MTDB image CDN api with poster_path
+- Build Movie list
+- Build Movie Card
+- Implemented Tailwind CSS
+- Created usePopularMovies Custom hook
 
 # Features
 

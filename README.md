@@ -48,6 +48,8 @@
 - Build Movie Card
 - Implemented Tailwind CSS
 - Created usePopularMovies Custom hook
+- GPT Search Feature
+- Multi-language feature in our App
 
 # Features
 

@@ -50,6 +50,8 @@
 - Created usePopularMovies Custom hook
 - GPT Search Feature
 - Multi-language feature in our App
+- Memoizing the app
+- Implemented TMDB movie search with openai.
 
 # Features
 

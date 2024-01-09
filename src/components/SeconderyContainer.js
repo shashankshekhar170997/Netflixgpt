@@ -13,13 +13,13 @@ const SeconderyContainer = () => {
             title={"Now Playing"}
             movies={moviesData.nowPlayingMovies}
           />
-          <MovieList title={"Trending"} movies={moviesData.nowPlayingMovies} />
+          <MovieList title={"Top Rated"} movies={moviesData.topratedMovies} />
           <MovieList title={"Popular"} movies={moviesData.popularMovies} />
           <MovieList
             title={"Upcoming Movies"}
             movies={moviesData.nowPlayingMovies}
           />
-          <MovieList title={"Horror"} movies={moviesData.nowPlayingMovies} />
+          {/* <MovieList title={"Horror"} movies={moviesData.nowPlayingMovies} /> */}
         </div>
       </div>
     )

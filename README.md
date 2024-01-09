@@ -56,6 +56,8 @@
 - Gpt Search API call
 - Fetched gptMoviesSuggestion from TMD
 - Created GPT Slice added data.
+- Created CustomHooks for PopularMovies, UpcomingMovies
+- Created actions in Slice for upcoming and popular movies.
 
 # Features
 

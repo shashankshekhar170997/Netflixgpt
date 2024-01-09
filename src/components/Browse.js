@@ -6,12 +6,16 @@ import SeconderyContainer from "./SeconderyContainer";
 import usePopularMovies from "../CustomHooks/usePopularMovies";
 import GptSearchPage from "./GptSearchPage";
 import { useSelector } from "react-redux";
+import useTopRatedMovies from "../CustomHooks/useTopRatedMovies";
+import useUpcomingMovies from "../CustomHooks/useUpcomingMovies";
 
 const Browse = () => {
   // reading from store.
   const showGPTSearch = useSelector((store) => store.gpt.showGptSearch);
   useNowPlayingMovies();
   usePopularMovies();
+  useTopRatedMovies();
+  useUpcomingMovies();
   return (
     <div>
       <Header />

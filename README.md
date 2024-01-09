@@ -52,6 +52,10 @@
 - Multi-language feature in our App
 - Memoizing the app
 - Implemented TMDB movie search with openai.
+- Get Open AI api key
+- Gpt Search API call
+- Fetched gptMoviesSuggestion from TMD
+- Created GPT Slice added data.
 
 # Features
 

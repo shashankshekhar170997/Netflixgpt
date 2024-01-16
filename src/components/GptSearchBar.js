@@ -35,6 +35,7 @@ const GptSearchBar = () => {
     });
     if (!gptResults.choices) {
       // Error handeling
+      return "Invalid Search";
     }
     console.log(gptResults.choices?.[0]?.message?.content);
     const gptMovies = gptResults.choices?.[0]?.message?.content.split(",");
